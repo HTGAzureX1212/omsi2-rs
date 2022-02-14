@@ -1,0 +1,11 @@
+[package]
+name = "omsi2"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.60.0"
+authors = ["HTGAzureX1212."]
+license = "MIT"
+description = "OMSI 2, but written in Rust"
+
+[dependencies]
+ash = { version = "0.35.1+1.2.203", features = ["linked"] }
